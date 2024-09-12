@@ -13,8 +13,20 @@
 5. [Observação](#observacao)
 
 ---
-# README - Configuração e Customização do Site
+## Estrutura do JSON
 
-Este projeto utiliza um arquivo JSON para configurar e personalizar as características principais do site. Siga as instruções abaixo para ajustar o nome, logotipo, cores, fonte e outras propriedades do site.
-
+```json
+{
+    "siteName": "Karen",
+    "logo": "./assets/img/logo/logo.png",
+    "currency": "BRL",
+    "font": "Sora",
+    "theme": {
+        "backgroundColor": "#fff",
+        "nameSiteColor": "#808080",
+        "iconsColor": "#808080",
+        "secondaryColor": "#2ecc71"
+    },
+    "whatsappNumber": "5551999999999"
+}
 ---
