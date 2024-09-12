@@ -17,7 +17,7 @@
 
 ```json
 {
-    "siteName": "Karen",
+    "siteName": "Minha Loja",
     "logo": "./assets/img/logo/logo.png",
     "currency": "BRL",
     "font": "Sora",
