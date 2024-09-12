@@ -38,7 +38,7 @@
 ### Nome do Site (`siteName`)
 
 - **Descrição**: O nome do site que será exibido no cabeçalho ou em outras áreas do site.
-- **Valor Padrão**: `"Karen"`
+- **Valor Padrão**: `"MInha Loja"`
 - **Exemplo de Uso**: Para alterar o nome do site para "Meu Novo Site", edite o valor:
   ```json
   "siteName": "Meu Novo Site"
