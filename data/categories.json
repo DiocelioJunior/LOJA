@@ -1,0 +1,13 @@
+[
+    {
+      "id": "A",
+      "name": "Categoria A",
+      "icon":"icon1.svg"
+    },
+    {
+      "id": "B",
+      "name": "Categoria B",
+      "icon":"icon2.svg"
+    }
+  ]
+  

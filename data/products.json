@@ -1,0 +1,43 @@
+[
+    {
+      "id": "1",
+      "name": "Marcador de Paginas Olivia Rodrigo",
+      "category": "Categoria A",
+      "price": 29.99,
+      "description": "Descrição do Produto 1",
+      "image": "https://i.pinimg.com/564x/bb/06/5e/bb065e04b673ceff41cb80ee7497ab95.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Eco Bag - Book Club",
+      "category": "Categoria B",
+      "price": 49.99,
+      "description": "Descrição do Produto 2",
+      "image": "https://i.pinimg.com/236x/f9/1a/a4/f91aa4345fe8b3eb909d2ecaddcf05de.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Camiseta - Book Club",
+      "category": "Categoria B",
+      "price": 49.99,
+      "description": "Descrição do Produto 2",
+      "image": "https://i.pinimg.com/236x/28/e2/30/28e2305a2f7693999808423e3e7e0188.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Marcador de Pagina Magnetico",
+      "category": "Categoria A",
+      "price": 49.99,
+      "description": "Descrição do Produto 2",
+      "image": "https://i.pinimg.com/564x/a1/1b/66/a11b663abc209423daaf9f319f99a15c.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Camiseta - Book Club",
+      "category": "Categoria B",
+      "price": 49.99,
+      "description": "Descrição do Produto 2",
+      "image": "https://i.pinimg.com/236x/28/e2/30/28e2305a2f7693999808423e3e7e0188.jpg"
+    }
+  ]
+  

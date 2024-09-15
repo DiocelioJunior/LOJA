@@ -1,0 +1,18 @@
+{
+    "siteName": "Lujinha",
+    "logo":"./assets/img/logo/logo.png",
+    "currency": "BRL",
+    "font":"Suse",
+    "theme": {
+        "backgroundColor": "#fff",
+        "nameSiteColor": "#808080",
+        "bannerTxtColor": "#fff",
+        "iconsColor": "#808080",
+        "secondaryColor": "#2ecc71"
+    },
+    "banner":{
+        "bannerImg":"./assets/img/banner/banner.jpg"
+    },
+    "whatsappNumber": "5551999999999"
+  }
+  

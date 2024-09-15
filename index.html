@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Titulo-->
+    <title>Loja | Pagina Incial</title>
+    <!--Links-->
+    <!--Link CSS-->
+    <link rel="stylesheet" href="./css/style.css">
+    <!--Link Icons-->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body>
+    <!--Barra de Pesquisa-->
+    <section class="container" id="container">
+        <!--Barra de Navegação-->
+        <div class="nav-container">
+            <!--Logo-->
+            <div class="logo-container">
+                <img src="" alt="logo" id="logo">
+            </div>
+            <!--Nome da Loja-->
+            <div class="name-container">
+                <h1 id="name"><!--Nome-->Nome</h1>
+            </div>
+            <!--Carrinho-->
+            <div class="name-container">
+                <span id="icons" class="material-symbols-outlined">
+                    shopping_bag
+                </span>
+            </div>
+        </div>
+
+        <!--Banner-->
+        <div class="banner-container" id="banner-container">
+            <h1 id="banner-txt">Lorem ipsum dolor sit</h1>
+        </div>
+
+        <!--Barra de Pesquisa-->
+        <div class="search-container">
+            <input type="text" placeholder="O que esta procurando?">
+        </div>
+
+        <!--Barra de Categorias-->
+        <div class="category-container">
+            <h2>Categorias</h2>
+            <div class="category-icons" id="category-icons">
+                <div class="icons" data-category="all">
+                    <img src="./assets/img/icons/icon3.svg" alt="Todos os Produtos">
+                </div>
+                <!--Categorias são adicinadas via JS - ./data/categories.json-->
+            </div>
+        </div>
+
+        <!--Barra de Categorias-->
+        <div class="products-container">
+
+        </div>
+    </section>
+
+    <script src="./js/config.js"></script>
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>
