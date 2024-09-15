@@ -4,7 +4,8 @@
       "name": "Marcador de Paginas Olivia Rodrigo",
       "category": "Categoria A",
       "price": 29.99,
-      "description": "Descrição do Produto 1",
+      "off": 10,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non velit scelerisque, faucibus ligula vel, feugiat arcu. Donec tristique neque eget molestie bibendum. Donec a leo quis libero tempor maximus eget nec nunc. Cras in metus iaculis, commodo diam eu, hendrerit dolor. Nulla facilisi. Duis sit amet est at ipsum porta gravida ut nec orci. Quisque id felis id purus bibendum facilisis. Suspendisse facilisis massa et maximus vehicula. Mauris elementum laoreet porta. Phasellus pulvinar est eros. Phasellus dictum molestie dui. Morbi suscipit dapibus augue, eu tempor felis ornare eu.",
       "image": "https://i.pinimg.com/564x/bb/06/5e/bb065e04b673ceff41cb80ee7497ab95.jpg"
     },
     {

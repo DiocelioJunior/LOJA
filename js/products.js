@@ -12,6 +12,7 @@ window.addEventListener("load", () => {
                     document.getElementById('product-name').textContent = product.name;
                     document.getElementById('product-price').textContent = `R$ ${product.price.toFixed(2)}`;
                     document.getElementById('product-description').textContent = product.description;
+                    document.getElementById('off-price').textContent = product.off;
                 } else {
                     console.error('Produto não encontrado');
                 }

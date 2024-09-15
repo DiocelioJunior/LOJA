@@ -214,13 +214,41 @@ body{
 }
 
 .info-container{
-    background-color: pink;
-    width: 100%;
+    width: 95%;
+    margin-top: 10px;
+    padding-left: 10px;
 }
 
 .info-container h1{
-   font-size: 20px;
+   font-size: 18px;
+   font-weight: 300;
 }
+
+.price{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.info-container h2{
+    font-size: 32px;
+ }
+
+ .info-container h3{
+    font-size: 14px;
+    font-weight: 300;
+    color: green;
+ }
+
+ .info-container span{
+    font-size: 18px;
+ }
+
+ .info-container p{
+    font-size: 14px;
+ }
 
 
 
