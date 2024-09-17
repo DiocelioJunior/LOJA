@@ -100,6 +100,7 @@ window.addEventListener("load", () => {
                 iconCategories.innerHTML += `
                     <div class="icons" data-category="${category.name}">
                         <img src="./assets/img/icons/${category.icon}" alt="${category.name}">
+                        <p>${category.name}</p>
                     </div>
                 `;
             });

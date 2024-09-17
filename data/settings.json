@@ -4,7 +4,7 @@
     "currency": "BRL",
     "font":"Suse",
     "theme": {
-        "backgroundColor": "#fff",
+        "backgroundColor": "#ebebeb",
         "nameSiteColor": "#808080",
         "bannerTxtColor": "#fff",
         "iconsColor": "#808080",

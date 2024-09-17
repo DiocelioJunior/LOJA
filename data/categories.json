@@ -1,13 +1,8 @@
 [
     {
       "id": "A",
-      "name": "Categoria A",
+      "name": "Books",
       "icon":"icon1.svg"
-    },
-    {
-      "id": "B",
-      "name": "Categoria B",
-      "icon":"icon2.svg"
     }
   ]
   
