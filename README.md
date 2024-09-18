@@ -19,8 +19,11 @@ Este projeto tem como objetivo oferecer uma solução simples e acessível para 
 5. [Observação](#observacao)
 
 
-## Estrutura
+# Estrutura de Diretórios e Arquivos
 
+Este projeto é organizado da seguinte forma:
+
+```
 LOJA/
 ├── assets/
 │   ├── img/
@@ -47,24 +50,6 @@ LOJA/
 │   └── products.js                # Lógica específica para produtos
 ├── index.html                     # Página principal da loja
 └── product-details.html           # Página de detalhes de um produto
-
----
-## Estrutura do JSON
-
-```json
-{
-    "siteName": "Minha Loja",
-    "logo": "./assets/img/logo/logo.png",
-    "currency": "BRL",
-    "font": "Sora",
-    "theme": {
-        "backgroundColor": "#fff",
-        "nameSiteColor": "#808080",
-        "iconsColor": "#808080",
-        "secondaryColor": "#2ecc71"
-    },
-    "whatsappNumber": "5551999999999"
-}
 
 ```
 ---
