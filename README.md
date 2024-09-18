@@ -1,3 +1,9 @@
+# Loujinha 
+
+Este projeto tem como objetivo oferecer uma solução simples e acessível para aqueles que desejam abrir suas pequenas lojas online. Focado em usuários com algum conhecimento de desenvolvimento, ele permite a criação de lojas sem a necessidade de banco de dados, utilizando apenas arquivos JSON para todas as configurações. A proposta é facilitar o processo de criação de um e-commerce de baixo custo, permitindo que o usuário personalize facilmente sua loja sem a complexidade de integrações avançadas, garantindo flexibilidade e rapidez na implementação.
+
+---
+
 ## Índice
 
 1. [Estrutura do JSON](#estrutura-do-json)
@@ -11,6 +17,36 @@
 3. [Instruções de Uso](#instrucoes-de-uso)
 4. [Exemplo de Configuração Personalizada](#exemplo-de-configuracao-personalizada)
 5. [Observação](#observacao)
+
+
+## Estrutura
+
+LOJA/
+├── assets/
+│   ├── img/
+│   │   ├── banner/
+│   │   │   └── banner.jpg        # Imagem do banner principal da loja
+│   │   ├── icons/
+│   │   │   ├── icon1.svg          # Ícone da loja (exemplo)
+│   │   │   ├── icon3.svg          # Outro ícone (exemplo)
+│   │   ├── logo/
+│   │   │   └── logo.png           # Logotipo da loja
+│   │   └── products/              # Imagens dos produtos (se houver)
+├── css/
+│   └── style.css                  # Arquivo de estilo da loja
+├── data/
+│   ├── categories.json            # Dados das categorias de produtos
+│   ├── products.json              # Dados dos produtos (nome, preço, etc.)
+│   └── settings.json              # Configurações da loja (nome, moeda, etc.)
+├── docs/
+│   ├── anotações.txt              # Anotações gerais sobre o projeto
+│   └── README.md                  # Documentação do projeto
+├── js/
+│   ├── config.js                  # Configurações em JavaScript
+│   ├── main.js                    # Lógica principal do site
+│   └── products.js                # Lógica específica para produtos
+├── index.html                     # Página principal da loja
+└── product-details.html           # Página de detalhes de um produto
 
 ---
 ## Estrutura do JSON
