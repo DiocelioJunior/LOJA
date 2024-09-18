@@ -1,31 +1,37 @@
 [
     {
       "id": "1",
-      "name": "Marcador de Paginas Olivia Rodrigo",
+      "name": "Marcador de Paginas Magnetico",
       "category": "Categoria A",
       "price": 29.99,
       "off": 10,
       "colors": {
-            "color1":"#000",
-            "color2":"#000",
-            "color3":"#000"
+        "color1":"#000",
+        "color2":"#cccccc",
+        "color3":"#444444"
+      },
+      "size": {
+        
       },
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non velit scelerisque, faucibus ligula vel, feugiat arcu. Donec tristique neque eget molestie bibendum. Donec a leo quis libero tempor maximus eget nec nunc. Cras in metus iaculis, commodo diam eu, hendrerit dolor. Nulla facilisi. Duis sit amet est at ipsum porta gravida ut nec orci. Quisque id felis id purus bibendum facilisis. Suspendisse facilisis massa et maximus vehicula. Mauris elementum laoreet porta. Phasellus pulvinar est eros. Phasellus dictum molestie dui. Morbi suscipit dapibus augue, eu tempor felis ornare eu.",
-      "image": "https://i.pinimg.com/564x/bb/06/5e/bb065e04b673ceff41cb80ee7497ab95.jpg"
+      "image": "https://i.pinimg.com/564x/35/15/39/351539b3f518357731261060d975cc97.jpg"
     },
     {
-        "id": "1",
-        "name": "Marcador de Paginas Olivia Rodrigo",
-        "category": "Categoria A",
+        "id": "2",
+        "name": "Marcador de Paginas Magnetico",
+        "category": "Categoria B",
         "price": 29.99,
         "off": 10,
         "colors": {
-              "color1":"#000",
-              "color2":"#000",
-              "color3":"#000"
+          "color1":"#000",
+          "color2":"#cccccc",
+          "color3":"#444444"
+        },
+        "size": {
+          
         },
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non velit scelerisque, faucibus ligula vel, feugiat arcu. Donec tristique neque eget molestie bibendum. Donec a leo quis libero tempor maximus eget nec nunc. Cras in metus iaculis, commodo diam eu, hendrerit dolor. Nulla facilisi. Duis sit amet est at ipsum porta gravida ut nec orci. Quisque id felis id purus bibendum facilisis. Suspendisse facilisis massa et maximus vehicula. Mauris elementum laoreet porta. Phasellus pulvinar est eros. Phasellus dictum molestie dui. Morbi suscipit dapibus augue, eu tempor felis ornare eu.",
-        "image": "https://i.pinimg.com/564x/bb/06/5e/bb065e04b673ceff41cb80ee7497ab95.jpg"
+        "image": "https://i.pinimg.com/564x/df/b2/89/dfb289fa9275c4fc8b3a084d414bca59.jpg"
       }
   ]
   

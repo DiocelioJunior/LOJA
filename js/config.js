@@ -11,20 +11,56 @@ document.addEventListener('DOMContentLoaded', () => {
             const icons = document.getElementById("icons");
             const banner = document.getElementById("banner-container");
             const bannerTxt = document.getElementById("banner-txt");
-            
-            const font = settings.font;
+            const buttons = document.getElementsByClassName("btn");
+            const colorsDisplay = document.getElementById("colors");
+            const sizeDisplay = document.getElementById("sizes");
 
+            const font = settings.font;
+            const displayColors = settings.displayColors;
+            const displaySizes = settings.displaySizes;
+
+            // Configura o logo
             if (logo) logo.src = settings.logo;
+
+            // Configura o banner
             if (banner) banner.style.backgroundImage = `url('${settings.banner.bannerImg}')`;
+
+            // Configura o texto do banner
             if (bannerTxt) bannerTxt.style.color = settings.theme.bannerTxtColor;
-            if (name) name.innerText = settings.siteName;
-            if (name) name.style.color = settings.theme.nameSiteColor;
+
+            // Configura o nome do site
+            if (name) {
+                name.innerText = settings.siteName;
+                name.style.color = settings.theme.nameSiteColor;
+            }
+
+            // Configura o texto das categorias e produtos
             if (categoryTxt) categoryTxt.style.color = settings.theme.nameSiteColor;
             if (productTxt) productTxt.style.color = settings.theme.nameSiteColor;
+
+            // Configura o background dos containers
             if (container) container.style.backgroundColor = settings.theme.backgroundColor;
             if (containerProducts) containerProducts.style.backgroundColor = settings.theme.backgroundColor;
+
+            // Configura a cor dos ícones
             if (icons) icons.style.color = settings.theme.iconsColor;
 
+            // Configura a exibição das cores e tamanhos
+            if (displayColors === false) {
+                if (colorsDisplay) colorsDisplay.style.display = "none";
+            }
+
+            if (displaySizes === false) {
+                if (sizeDisplay) sizeDisplay.style.display = "none";
+            }
+
+            // Configura a cor dos botões
+            Array.from(buttons).forEach(button => {
+                button.style.backgroundColor = settings.theme.buttonColor;
+                button.style.color = settings.theme.buttonColorTxt;
+            });
+
+            // Configura a fonte
             const fontMapping = {
                 "Sora": "Sora, sans-serif",
                 "Suse": "SUSE, sans-serif",

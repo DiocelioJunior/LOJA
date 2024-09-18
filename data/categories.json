@@ -2,7 +2,8 @@
     {
       "id": "A",
       "name": "Books",
-      "icon":"icon1.svg"
+      "icon":"icon1.svg",
+      "color":"#808080"
     }
   ]
   

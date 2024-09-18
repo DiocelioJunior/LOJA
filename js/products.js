@@ -25,6 +25,7 @@ window.addEventListener("load", () => {
                     Object.values(product.colors).forEach(color => {
                         colorsContainer.innerHTML += `
                             <div class="color-icon" style="background-color: ${color};">
+                        
                             </div>
                         `;
                     });
