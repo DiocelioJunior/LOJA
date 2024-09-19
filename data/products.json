@@ -2,7 +2,7 @@
     {
       "id": "1",
       "name": "Marcador de Paginas Magnetico",
-      "category": "Categoria A",
+      "category": "Booksmark",
       "price": 29.99,
       "off": 10,
       "colors": {
@@ -19,7 +19,7 @@
     {
         "id": "2",
         "name": "Marcador de Paginas Magnetico",
-        "category": "Categoria B",
+        "category": "Booksmark",
         "price": 29.99,
         "off": 10,
         "colors": {
@@ -31,6 +31,66 @@
         },
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non velit scelerisque, faucibus ligula vel, feugiat arcu. Donec tristique neque eget molestie bibendum. Donec a leo quis libero tempor maximus eget nec nunc. Cras in metus iaculis, commodo diam eu, hendrerit dolor. Nulla facilisi. Duis sit amet est at ipsum porta gravida ut nec orci. Quisque id felis id purus bibendum facilisis. Suspendisse facilisis massa et maximus vehicula. Mauris elementum laoreet porta. Phasellus pulvinar est eros. Phasellus dictum molestie dui. Morbi suscipit dapibus augue, eu tempor felis ornare eu.",
         "image": "https://i.pinimg.com/564x/df/b2/89/dfb289fa9275c4fc8b3a084d414bca59.jpg"
+      },
+      {
+        "id": "3",
+        "name": "Bottom You Are Loved",
+        "category": "Bottons",
+        "price": 29.99,
+        "off": 10,
+        "colors": {
+          "color1":"#fff"
+        },
+        "size": {
+          
+        },
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non velit scelerisque, faucibus ligula vel, feugiat arcu. Donec tristique neque eget molestie bibendum. Donec a leo quis libero tempor maximus eget nec nunc. Cras in metus iaculis, commodo diam eu, hendrerit dolor. Nulla facilisi. Duis sit amet est at ipsum porta gravida ut nec orci. Quisque id felis id purus bibendum facilisis. Suspendisse facilisis massa et maximus vehicula. Mauris elementum laoreet porta. Phasellus pulvinar est eros. Phasellus dictum molestie dui. Morbi suscipit dapibus augue, eu tempor felis ornare eu.",
+        "image": "https://i.pinimg.com/originals/2f/ee/a1/2feea186115da6ae13469e960f7a5600.jpg"
+      },
+      {
+        "id": "4",
+        "name": "Bottom This My Day Off",
+        "category": "Bottons",
+        "price": 29.99,
+        "off": 10,
+        "colors": {
+          "color1":"#fff"
+        },
+        "size": {
+          
+        },
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non velit scelerisque, faucibus ligula vel, feugiat arcu. Donec tristique neque eget molestie bibendum. Donec a leo quis libero tempor maximus eget nec nunc. Cras in metus iaculis, commodo diam eu, hendrerit dolor. Nulla facilisi. Duis sit amet est at ipsum porta gravida ut nec orci. Quisque id felis id purus bibendum facilisis. Suspendisse facilisis massa et maximus vehicula. Mauris elementum laoreet porta. Phasellus pulvinar est eros. Phasellus dictum molestie dui. Morbi suscipit dapibus augue, eu tempor felis ornare eu.",
+        "image": "https://i.pinimg.com/originals/b1/d1/78/b1d1780a51b963e503d0745cb0ab2c69.jpg"
+      },
+      {
+        "id": "5",
+        "name": "Card do Seu Beijo Quero Bis",
+        "category": "Cards",
+        "price": 29.99,
+        "off": 10,
+        "colors": {
+          "color1":"#fff"
+        },
+        "size": {
+          
+        },
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non velit scelerisque, faucibus ligula vel, feugiat arcu. Donec tristique neque eget molestie bibendum. Donec a leo quis libero tempor maximus eget nec nunc. Cras in metus iaculis, commodo diam eu, hendrerit dolor. Nulla facilisi. Duis sit amet est at ipsum porta gravida ut nec orci. Quisque id felis id purus bibendum facilisis. Suspendisse facilisis massa et maximus vehicula. Mauris elementum laoreet porta. Phasellus pulvinar est eros. Phasellus dictum molestie dui. Morbi suscipit dapibus augue, eu tempor felis ornare eu.",
+        "image": "https://i.pinimg.com/564x/8d/90/1a/8d901a7950b5491acd318b4a5b81bf9a.jpg"
+      },
+      {
+        "id": "6",
+        "name": "Card Janeiro Branco",
+        "category": "Cards",
+        "price": 29.99,
+        "off": 10,
+        "colors": {
+          "color1":"#fff"
+        },
+        "size": {
+          
+        },
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non velit scelerisque, faucibus ligula vel, feugiat arcu. Donec tristique neque eget molestie bibendum. Donec a leo quis libero tempor maximus eget nec nunc. Cras in metus iaculis, commodo diam eu, hendrerit dolor. Nulla facilisi. Duis sit amet est at ipsum porta gravida ut nec orci. Quisque id felis id purus bibendum facilisis. Suspendisse facilisis massa et maximus vehicula. Mauris elementum laoreet porta. Phasellus pulvinar est eros. Phasellus dictum molestie dui. Morbi suscipit dapibus augue, eu tempor felis ornare eu.",
+        "image": "https://i.pinimg.com/564x/ab/42/a1/ab42a1aa2a6281b26be65c1f891a3331.jpg"
       }
   ]
   

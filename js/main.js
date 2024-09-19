@@ -99,12 +99,11 @@ window.addEventListener("load", () => {
             categories.forEach(category => {
                 iconCategories.innerHTML += `
                     <div class="icons" data-category="${category.name}">
-                        <img src="./assets/img/icons/${category.icon}" alt="${category.name}" fill="${category.iconColor}">
+                        <img src="./assets/img/icons/${category.icon}" alt="${category.name}">
                         <p style="color:${category.color} ;">${category.name}</p>
                     </div>
                 `;
             });
-        ;
 
             addClickIcons();
             fetchAndDisplayAllProducts();

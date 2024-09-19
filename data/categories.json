@@ -3,8 +3,19 @@
       "id": "1",
       "name": "Booksmark",
       "icon":"icon1.svg",
-      "color":"#f22b56",
-      "iconColor":"#000"
-    }
+      "color":"#f22b56"
+    },   
+     {
+        "id": "2",
+        "name": "Bottons",
+        "icon":"icon2.svg",
+        "color":"#5985E1"
+      },   
+      {
+         "id": "3",
+         "name": "Cards",
+         "icon":"icon4.svg",
+         "color":"#78A75A"
+       }
   ]
   
