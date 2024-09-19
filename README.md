@@ -16,7 +16,7 @@ Além disso, a estrutura bem definida dos arquivos e pastas garante que o projet
 
 ## Índice
 
-1. [Estrutura do JSON](#estrutura-do-json)
+1. [Estrutura de Diretórios e Arquivos](#Estrutura-de-Diretórios-e-Arquivos)
 2. [Como Personalizar o Site](#como-personalizar-o-site)
     1. [Nome do Site (`siteName`)](#nome-do-site-sitename)
     2. [Logotipo (`logo`)](#logotipo-logo)
