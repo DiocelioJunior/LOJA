@@ -2,6 +2,15 @@
 
 Este projeto tem como objetivo oferecer uma solução simples e acessível para aqueles que desejam abrir suas pequenas lojas online. Focado em usuários com algum conhecimento de desenvolvimento, ele permite a criação de lojas sem a necessidade de banco de dados, utilizando apenas arquivos JSON para todas as configurações. A proposta é facilitar o processo de criação de um e-commerce de baixo custo, permitindo que o usuário personalize facilmente sua loja sem a complexidade de integrações avançadas, garantindo flexibilidade e rapidez na implementação.
 
+## Explicação Geral
+
+Este projeto foi desenvolvido para facilitar a criação de pequenas lojas online, utilizando uma abordagem simples e eficaz. A estrutura separa claramente os recursos visuais, lógicos e de dados, tornando o sistema modular e de fácil manutenção.
+
+Em vez de utilizar um banco de dados tradicional, a loja armazena suas informações essenciais, como categorias de produtos e configurações gerais, em arquivos JSON. Isso permite que os desenvolvedores com conhecimento básico possam facilmente modificar e adicionar novos produtos, categorias ou configurações apenas alterando esses arquivos.
+
+Os scripts JavaScript carregam os dados diretamente dos arquivos JSON e geram dinamicamente o conteúdo nas páginas HTML, garantindo que o site seja sempre atualizado com base nas mudanças nos arquivos de dados. Isso torna o projeto ideal para pequenas lojas que buscam uma solução de baixo custo e de fácil personalização, sem a necessidade de ferramentas mais complexas como bancos de dados ou back-ends robustos.
+
+Além disso, a estrutura bem definida dos arquivos e pastas garante que o projeto possa ser facilmente ampliado ou modificado, caso o desenvolvedor deseje adicionar novas funcionalidades ou estilos personalizados.
 ---
 
 ## Índice
@@ -53,6 +62,16 @@ LOJA/
 
 ```
 ---
+
+## Descrição das Pastas e Arquivos:
+
+- **assets/**: Armazena todos os recursos estáticos do site, como imagens de banners, logotipos e ícones personalizados. Esses arquivos são essenciais para a apresentação visual da loja.
+- **css/**: Contém o arquivo de estilos CSS que define a aparência do site, incluindo cores, layout, tipografia e outras regras de design.
+- **data/**: Inclui arquivos no formato JSON que armazenam os dados dinâmicos da loja, como categorias de produtos, lista de produtos e configurações gerais, simplificando a manutenção e atualização sem necessidade de um banco de dados.
+- **docs/**: Contém a documentação do projeto. O arquivo `README.md` é o ponto de partida para qualquer desenvolvedor que queira entender ou contribuir para o projeto, enquanto o arquivo `anotações.txt` pode conter detalhes sobre o processo de desenvolvimento.
+- **js/**: Contém os scripts JavaScript que controlam a funcionalidade e o comportamento da loja. Isso inclui desde a leitura dos dados dos arquivos JSON até a renderização dinâmica dos produtos e páginas.
+- **index.html**: Esta é a página inicial da loja, onde os usuários podem visualizar uma lista de produtos e outras informações essenciais da loja.
+- **product-details.html**: Página que exibe detalhes específicos de um produto quando o usuário clica para saber mais. Esta página é gerada dinamicamente com base nos dados dos produtos.
 
 ## Como Personalizar o Site
 
