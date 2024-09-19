@@ -93,7 +93,6 @@ Este projeto oferece uma solução simplificada para a criação de lojas online
 - **Página de Detalhes do Produto**: Ao clicar em um produto, o usuário é redirecionado para uma página que exibe detalhes completos, como descrição, preço e imagem do item.
 - **Configuração via JSON**: Todas as configurações da loja, como moeda, título, e informações visuais, são gerenciadas por meio de um arquivo JSON, permitindo uma personalização fácil e rápida.
 - **Organização de Categorias**: Os produtos são organizados por categorias, também configuradas em arquivos JSON, permitindo aos usuários filtrar e navegar pelos itens de forma intuitiva.
-- **Design Responsivo**: O layout da loja é totalmente responsivo, garantindo uma boa experiência de navegação tanto em dispositivos móveis quanto em desktops.
 - **Customização de Estilos**: A loja conta com um arquivo de CSS onde os desenvolvedores podem facilmente ajustar o visual, cores e tipografia, conforme suas preferências ou identidade visual da marca.
 
 ## Tecnologias Usadas
