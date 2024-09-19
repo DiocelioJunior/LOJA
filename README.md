@@ -66,7 +66,16 @@ LOJA/
 
 ## Descrição das Pastas e Arquivos:
 
-- **assets/**: Armazena todos os recursos estáticos do site, como imagens de banners, logotipos e ícones personalizados. Esses arquivos são essenciais para a apresentação visual da loja.
+- **assets/**: Armazena todos os recursos estáticos do site, organizados em subpastas específicas para diferentes tipos de mídias. 
+
+  - **banner/**: Contém a imagem principal da loja, que deve ser nomeada como `banner.jpg` para garantir que seja carregada corretamente no site.
+  
+  - **logo/**: Armazena o logotipo oficial da loja, que deve sempre ser nomeado como `logo.png` para facilitar a substituição ou atualização.
+  
+  - **products/**: Destinada às imagens dos produtos da loja. Aqui, você pode adicionar imagens dos itens disponíveis para venda, sem restrições de nomes específicos para os arquivos.
+  
+  - **icons/**: Contém os ícones utilizados no site, que podem ser personalizados de acordo com as necessidades visuais, e não possuem restrições quanto aos nomes dos arquivos.
+
 - **css/**: Contém o arquivo de estilos CSS que define a aparência do site, incluindo cores, layout, tipografia e outras regras de design.
 - **data/**: Inclui arquivos no formato JSON que armazenam os dados dinâmicos da loja, como categorias de produtos, lista de produtos e configurações gerais, simplificando a manutenção e atualização sem necessidade de um banco de dados.
 - **docs/**: Contém a documentação do projeto. O arquivo `README.md` é o ponto de partida para qualquer desenvolvedor que queira entender ou contribuir para o projeto, enquanto o arquivo `anotações.txt` pode conter detalhes sobre o processo de desenvolvimento.
