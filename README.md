@@ -11,6 +11,7 @@ Em vez de utilizar um banco de dados tradicional, a loja armazena suas informaç
 Os scripts JavaScript carregam os dados diretamente dos arquivos JSON e geram dinamicamente o conteúdo nas páginas HTML, garantindo que o site seja sempre atualizado com base nas mudanças nos arquivos de dados. Isso torna o projeto ideal para pequenas lojas que buscam uma solução de baixo custo e de fácil personalização, sem a necessidade de ferramentas mais complexas como bancos de dados ou back-ends robustos.
 
 Além disso, a estrutura bem definida dos arquivos e pastas garante que o projeto possa ser facilmente ampliado ou modificado, caso o desenvolvedor deseje adicionar novas funcionalidades ou estilos personalizados.
+
 ---
 
 ## Índice
