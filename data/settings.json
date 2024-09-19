@@ -4,19 +4,20 @@
     "currency": "BRL",
     "font":"Suse",
     "theme": {
-        "backgroundColor": "#ebebeb",
-        "nameSiteColor": "#808080",
+        "backgroundColor": "#fff",
+        "nameSiteColor": "#fda61a",
         "bannerTxtColor": "#fff",
         "iconsColor": "#808080",
-        "secondaryColor": "#2ecc71",
         "buttonColor": "#2ecc71",
         "buttonColorTxt": "#fff"
     },
     "displayColors": true,
     "displaySizes": false,
     "banner":{
-        "bannerImg":"./assets/img/banner/banner.jpg"
-    },
-    "whatsappNumber": "5551999999999"
+        "bannerImg":"./assets/img/banner/banner.jpg",
+        "bannerTxt":"Bem vindo a Lujinha!",
+        "bannerTxt2":"Lorem ipsun",
+        "bannerStyle":"right"
+    }
   }
   

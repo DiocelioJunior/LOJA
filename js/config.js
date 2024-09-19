@@ -11,13 +11,16 @@ document.addEventListener('DOMContentLoaded', () => {
             const icons = document.getElementById("icons");
             const banner = document.getElementById("banner-container");
             const bannerTxt = document.getElementById("banner-txt");
+            const bannerTxt2 = document.getElementById("banner-txt2");
             const buttons = document.getElementsByClassName("btn");
             const colorsDisplay = document.getElementById("colors");
             const sizeDisplay = document.getElementById("sizes");
+            const bannerTxtContainer = document.getElementById("txtBanner");
 
             const font = settings.font;
             const displayColors = settings.displayColors;
             const displaySizes = settings.displaySizes;
+            const bannerStyle = settings.banner.bannerStyle;
 
             // Configura o logo
             if (logo) logo.src = settings.logo;
@@ -26,7 +29,26 @@ document.addEventListener('DOMContentLoaded', () => {
             if (banner) banner.style.backgroundImage = `url('${settings.banner.bannerImg}')`;
 
             // Configura o texto do banner
-            if (bannerTxt) bannerTxt.style.color = settings.theme.bannerTxtColor;
+            if (bannerTxt) {
+                bannerTxt.style.color = settings.theme.bannerTxtColor;
+                bannerTxt.innerText = settings.banner.bannerTxt;
+            }
+
+            if (bannerTxt2) {
+                bannerTxt2.style.color = settings.theme.bannerTxtColor;
+                bannerTxt2.innerText = settings.banner.bannerTxt2;
+            }
+
+            // Ajusta o estilo do texto do banner
+            if (bannerTxtContainer) {
+                if (bannerStyle === "right") {
+                    bannerTxtContainer.style.alignItems = "flex-end";
+                } else if (bannerStyle === "left") {
+                    bannerTxtContainer.style.alignItems = "flex-start";
+                } else if (bannerStyle === "center") {
+                    bannerTxtContainer.style.alignItems = "center";
+                }
+            }
 
             // Configura o nome do site
             if (name) {
@@ -46,12 +68,12 @@ document.addEventListener('DOMContentLoaded', () => {
             if (icons) icons.style.color = settings.theme.iconsColor;
 
             // Configura a exibição das cores e tamanhos
-            if (displayColors === false) {
-                if (colorsDisplay) colorsDisplay.style.display = "none";
+            if (!displayColors && colorsDisplay) {
+                colorsDisplay.style.display = "none";
             }
 
-            if (displaySizes === false) {
-                if (sizeDisplay) sizeDisplay.style.display = "none";
+            if (!displaySizes && sizeDisplay) {
+                sizeDisplay.style.display = "none";
             }
 
             // Configura a cor dos botões

@@ -1,9 +1,10 @@
 [
     {
-      "id": "A",
-      "name": "Books",
+      "id": "1",
+      "name": "Booksmark",
       "icon":"icon1.svg",
-      "color":"#808080"
+      "color":"#f22b56",
+      "iconColor":"#000"
     }
   ]
   

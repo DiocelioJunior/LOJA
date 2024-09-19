@@ -23,9 +23,8 @@
         "price": 29.99,
         "off": 10,
         "colors": {
-          "color1":"#000",
-          "color2":"#cccccc",
-          "color3":"#444444"
+          "color1":"#000"
+
         },
         "size": {
           
