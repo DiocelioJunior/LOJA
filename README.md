@@ -17,16 +17,18 @@ Além disso, a estrutura bem definida dos arquivos e pastas garante que o projet
 ## Índice
 
 1. [Estrutura de Diretórios e Arquivos](#Estrutura-de-Diretórios-e-Arquivos)
-2. [Como Personalizar o Site](#como-personalizar-o-site)
+2. [Funcionalidades](#Funcionalidades)
+3. [Tecnologias Usadas](#Tecnologias-Usadas)
+4. [Como Personalizar o Site](#como-personalizar-o-site)
     1. [Nome do Site (`siteName`)](#nome-do-site-sitename)
     2. [Logotipo (`logo`)](#logotipo-logo)
     3. [Moeda (`currency`)](#moeda-currency)
     4. [Fonte (`font`)](#fonte-font)
     5. [Tema do Site (`theme`)](#tema-do-site-theme)
     6. [Número do WhatsApp (`whatsappNumber`)](#numero-do-whatsapp-whatsappnumber)
-3. [Instruções de Uso](#instrucoes-de-uso)
-4. [Exemplo de Configuração Personalizada](#exemplo-de-configuracao-personalizada)
-5. [Observação](#observacao)
+5. [Instruções de Uso](#instrucoes-de-uso)
+6. [Exemplo de Configuração Personalizada](#exemplo-de-configuracao-personalizada)
+7. [Observação](#observacao)
 
 
 # Estrutura de Diretórios e Arquivos
@@ -82,6 +84,28 @@ LOJA/
 - **js/**: Contém os scripts JavaScript que controlam a funcionalidade e o comportamento da loja. Isso inclui desde a leitura dos dados dos arquivos JSON até a renderização dinâmica dos produtos e páginas.
 - **index.html**: Esta é a página inicial da loja, onde os usuários podem visualizar uma lista de produtos e outras informações essenciais da loja.
 - **product-details.html**: Página que exibe detalhes específicos de um produto quando o usuário clica para saber mais. Esta página é gerada dinamicamente com base nos dados dos produtos.
+
+## Funcionalidades
+
+Este projeto oferece uma solução simplificada para a criação de lojas online com as seguintes funcionalidades:
+
+- **Catálogo de Produtos Dinâmico**: A loja exibe uma lista de produtos que é gerada dinamicamente a partir de um arquivo JSON, facilitando a atualização dos itens sem necessidade de um banco de dados.
+- **Página de Detalhes do Produto**: Ao clicar em um produto, o usuário é redirecionado para uma página que exibe detalhes completos, como descrição, preço e imagem do item.
+- **Configuração via JSON**: Todas as configurações da loja, como moeda, título, e informações visuais, são gerenciadas por meio de um arquivo JSON, permitindo uma personalização fácil e rápida.
+- **Organização de Categorias**: Os produtos são organizados por categorias, também configuradas em arquivos JSON, permitindo aos usuários filtrar e navegar pelos itens de forma intuitiva.
+- **Design Responsivo**: O layout da loja é totalmente responsivo, garantindo uma boa experiência de navegação tanto em dispositivos móveis quanto em desktops.
+- **Customização de Estilos**: A loja conta com um arquivo de CSS onde os desenvolvedores podem facilmente ajustar o visual, cores e tipografia, conforme suas preferências ou identidade visual da marca.
+
+## Tecnologias Usadas
+
+Este projeto foi construído utilizando as seguintes tecnologias:
+
+- **HTML5**: Linguagem de marcação usada para estruturar o conteúdo da loja, criando páginas web que são leves e rápidas.
+- **CSS3**: Utilizado para estilizar o site, garantindo que a loja tenha um design atrativo e responsivo, adaptado a diversos dispositivos e tamanhos de tela.
+- **JavaScript (ES6+)**: Linguagem de programação usada para manipular os dados, interagir com os arquivos JSON e dinamizar a exibição dos produtos na loja.
+- **JSON (JavaScript Object Notation)**: Formato leve de troca de dados utilizado para armazenar informações sobre produtos, categorias e configurações da loja, facilitando a personalização sem a necessidade de um banco de dados.
+- **SVG**: Utilizado para ícones, oferecendo gráficos escaláveis e leves, otimizados para o desempenho em diversas resoluções.
+
 
 ## Como Personalizar o Site
 
