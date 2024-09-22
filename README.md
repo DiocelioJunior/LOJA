@@ -1,4 +1,4 @@
-# Loujinha 
+# Lujinha 
 
 Este projeto tem como objetivo oferecer uma solução simples e acessível para aqueles que desejam abrir suas pequenas lojas online. Focado em usuários com algum conhecimento de desenvolvimento, ele permite a criação de lojas sem a necessidade de banco de dados, utilizando apenas arquivos JSON para todas as configurações. A proposta é facilitar o processo de criação de um e-commerce de baixo custo, permitindo que o usuário personalize facilmente sua loja sem a complexidade de integrações avançadas, garantindo flexibilidade e rapidez na implementação.
 
