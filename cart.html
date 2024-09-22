@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Titulo-->
+    <title> Lujinha | Carrinho de Compras</title>
+    <!--Links-->
+    <!--Link CSS-->
+    <link rel="stylesheet" href="./css/style.css">
+    <!--Link Icons-->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body>
+    <!--Barra de Pesquisa-->
+    <section class="container" id="container">
+        <!--Barra de Navegação-->
+        <div class="nav-container">
+            <!--Logo-->
+            <div class="logo-container">
+                <a href="./index.html"><img src="" alt="logo" id="logo"></a>
+            </div>
+            <!--Nome da Loja-->
+            <div class="name-container">
+                <h1 id="name"><!--Nome-->Nome</h1>
+            </div>
+            <!--Carrinho-->
+            <div class="name-container">
+                <a href="./cart.html"><img src="./assets/img/bag.svg" alt="bag"></a>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="cart-list" id="cart-container">
+                <h1>Seu Carrinho</h1>
+                <div id="cart-items"></div>
+                
+                <div class="total">
+                    <h2>Sub-Total: <span id="cart-subtotal">0.00</span></h2>
+                    <h2>Frete: <span id="cart-frete">0.00</span></h2>
+                    <h2>Total: <span id="cart-total">0.00</span></h2>
+                </div>
+                
+            </div>
+        </div>
+
+
+        <script src="./js/cart.js"></script>
+        <script src="./js/config.js"></script>
+        <script src="./js/products.js"></script>
+
+</body>
+
+</html>

@@ -22,12 +22,65 @@ window.addEventListener("load", () => {
                     colorsContainer.innerHTML = '';
 
                     // Exibe as cores do produto
+                    let selectedColor = null; // Variável para armazenar a cor selecionada
+
                     Object.values(product.colors).forEach(color => {
-                        colorsContainer.innerHTML += `
-                            <div class="color-icon" style="background-color: ${color};">
+                        const colorIcon = document.createElement('div');
+                        colorIcon.classList.add('color-icon');
+                        colorIcon.style.backgroundColor = color;
                         
-                            </div>
-                        `;
+                        // Evento para selecionar a cor
+                        colorIcon.addEventListener('click', () => {
+                            // Remove a seleção anterior
+                            document.querySelectorAll('.color-icon').forEach(icon => {
+                                icon.classList.remove('selected');
+                            });
+                            // Adiciona a classe selecionada
+                            colorIcon.classList.add('selected');
+                            // Salva a cor selecionada
+                            selectedColor = color;
+                        });
+
+                        // Adiciona o ícone de cor ao container
+                        colorsContainer.appendChild(colorIcon);
+                    });
+
+                    // Salvar dados no localStorage ao adicionar ao carrinho
+                    const addToCartButton = document.querySelector('.btn');
+                    const quantitySelector = document.querySelector('.qnt');
+
+                    addToCartButton.addEventListener('click', () => {
+                        // Obter quantidade selecionada
+                        const selectedQuantity = quantitySelector.value;
+
+                        // Verifica se alguma cor foi selecionada
+                        if (!selectedColor) {
+                            alert('Por favor, selecione uma cor antes de adicionar ao carrinho.');
+                            return;
+                        }
+
+                        // Criar objeto do produto
+                        const cartProduct = {
+                            id: product.id,
+                            name: product.name,
+                            price: product.price,
+                            description: product.description,
+                            quantity: selectedQuantity,
+                            color: selectedColor, 
+                            image:product.image,
+                        };
+
+                        // Recuperar carrinho atual do localStorage (ou criar um array vazio)
+                        let cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+                        // Adicionar o produto ao carrinho
+                        cart.push(cartProduct);
+
+                        // Salvar o carrinho atualizado no localStorage
+                        localStorage.setItem('cart', JSON.stringify(cart));
+
+                        // Confirmar adição ao carrinho (opcional)
+                        alert('Produto adicionado ao carrinho com sucesso!');
                     });
 
                 } else {
@@ -40,9 +93,4 @@ window.addEventListener("load", () => {
     } else {
         console.error('ID do produto não fornecido');
     }
-
-    // Botão para voltar à página anterior
-    document.getElementById('back-button').addEventListener('click', () => {
-        window.history.back();
-    });
 });
