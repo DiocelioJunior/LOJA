@@ -25,7 +25,10 @@ Além disso, a estrutura bem definida dos arquivos e pastas garante que o projet
     3. [Moeda (`currency`)](#moeda-currency)
     4. [Fonte (`font`)](#fonte-font)
     5. [Tema do Site (`theme`)](#tema-do-site-theme)
-    6. [Número do WhatsApp (`whatsappNumber`)](#numero-do-whatsapp-whatsappnumber)
+    6. [Exibição da Seleção de Cores (`displayColors`)](#exibição-de-cores-displayColors)
+    7. [Exibição da Seleção de Tamanhos (`displaySizes`)](#exibicao-de-tamanhos-displaySizes)
+    8. [Banner (`banner`)](#banner-banner)
+    9. [WhatsApp(`whatsappNumber`)](#numero-do-whatsapp-whatsappnumber)
 5. [Instruções de Uso](#instrucoes-de-uso)
 6. [Exemplo de Configuração Personalizada](#exemplo-de-configuracao-personalizada)
 7. [Observação](#observacao)
@@ -129,11 +132,11 @@ Este projeto foi construído utilizando as seguintes tecnologias:
 
 ### Logotipo (`logo`)
 
-- **Descrição**: O caminho para o arquivo de imagem do logotipo.
-- **Valor Padrão**: `"./assets/img/logo/logo.png"`
-- **Exemplo de Uso**: Para usar outro logotipo, altere o caminho da imagem:
+- **Descrição**:Nome do arquivo de imagem do logotipo, que deve estar localizado na pasta assets/img/logo. O logotipo é exibido na parte superior do site..
+- **Valor Padrão**: `"logo.png"`
+- **Exemplo de Uso**:Para mudar o logotipo, insira a nova imagem na pasta assets/img/logo e altere o nome do arquivo no JSON:
   ```json
-  "logo": "./assets/img/logo/novologo.png"
+  "logo": "novologo.png"
   ```
 
 ### Moeda (`currency`)
@@ -147,25 +150,29 @@ Este projeto foi construído utilizando as seguintes tecnologias:
 
 ### Fonte (`font`)
 
-- **Descrição**: A fonte principal usada no site.
+- **Descrição**: A fonte principal usada no site. Atualmente, existem três opções disponíveis:
+    - "Sora": "Sora, sans-serif"
+    - "Suse": "SUSE, sans-serif"
+    - "Montserrat": "Montserrat, sans-serif"
 - **Valor Padrão**: `"Sora"`
 - **Exemplo de Uso**: Para alterar a fonte para Arial, modifique o valor:
   ```json
-  "font": "Arial"
+  "font": "Sora"
   ```
 
 ### Tema do Site (`theme`)
 
-Este campo controla as cores do tema. Ele é composto por quatro subcampos:
-
-- **backgroundColor**: Define a cor de fundo do site.
-  - Valor padrão: `"#fff"` (branco)
-- **nameSiteColor**: Define a cor do nome do site.
-  - Valor padrão: `"#808080"` (cinza)
-- **iconsColor**: Define a cor dos ícones.
-  - Valor padrão: `"#808080"` (cinza)
-- **secondaryColor**: Define a cor secundária do site, utilizada em botões e elementos destacados.
-  - Valor padrão: `"#2ecc71"` (verde)
+- **Descrição**: Este campo controla as cores do tema. Ele é composto por quatro subcampos: 
+    - **backgroundColor:** Cor de fundo do site.
+         - Valor Padrão: `"#F5F5F5"`
+    - **nameSiteColor:** Cor do nome do site.
+         - Valor Padrão: `"#757575"`
+    - **txtSiteColor:** Cor do texto.
+          - Valor Padrão: `"#424242"`
+    - **buttonColor:** Cor dos botões.
+        - Valor Padrão: `"#212121"`
+    - **buttonColorTxt**: Cor do texto dos botões.
+        - Valor Padrão: `"#fff"`
 
 **Exemplo de Uso**: Para mudar as cores, basta editar os valores em hexadecimal:
 ```json
@@ -177,24 +184,49 @@ Este campo controla as cores do tema. Ele é composto por quatro subcampos:
 }
 ```
 
+### Exibição de Cores (`displayColors`)
+
+- **Descrição**: Define se a opção de selecionar cores estará disponível nos produtos.
+- **Valor Padrão**: `true`
+- **Exemplo de Uso**: Para desabilitar a exibição de cores, mude o valor:
+  ```json
+  ""displayColors": false"
+  ```
+
+  ### Exibição de Tamanhos (`displaySizes`)
+
+- **Descrição**: Define se a opção de selecionar tamanhos estará disponível.
+- **Valor Padrão**: `true`
+- **Exemplo de Uso**: Para desabilitar a exibição de cores, mude o valor:
+  ```json
+  ""displaySizes": false"
+  ```
+
+  ### Banner (`banner`)
+
+- **Descrição**: Este campo configura o banner exibido na página principal. Ele é composto por cinco subcampos: 
+    - **bannerImg:** Caminho para a imagem do banner.
+         - Valor Padrão: `"banner.png"`
+    - **bannerTxt:** Texto principal do banner.
+         - Valor Padrão: `"Lorem ipsum dolor amet mustache knausgaard"`
+    - **bannerTxt2:** Texto secundário do banner.
+          - Valor Padrão: `"Lorem ipsun"`
+    - **bannerTxtColor:** Cor do texto do banner.
+        - Valor Padrão: `"#fff"`
+    - **bannerStyle:**:  Alinhamento do texto no banner (exemplo: "left", "center", "right").
+        - Valor Padrão: `"left"`
+
 ### Número do WhatsApp (`whatsappNumber`)
 
-- **Descrição**: Número do WhatsApp para contato, usado em interações no site.
-- **Valor Padrão**: `"5551999999999"`
+- **Descrição**: Configura o número de WhatsApp e a mensagem padrão para compartilhar o carrinho de compras.
+- **number:** Número de telefone para contato via WhatsApp, incluindo o código do país.
+    - **Valor Padrão**: `"5551999999999"`
+- **number:** Mensagem inicial enviada com os detalhes do carrinho.
+    - **Valor Padrão**: `"Produtos no carrinho:\n\n"`
 - **Exemplo de Uso**: Para alterar o número de contato, insira o novo número:
   ```json
   "whatsappNumber": "5511998888777"
   ```
-
----
-
-## Instruções de Uso
-
-1. Abra o arquivo JSON em seu editor de texto.
-2. Altere os valores de acordo com as personalizações que deseja fazer.
-3. Salve as alterações e recarregue o site para ver as mudanças aplicadas.
-
-Esse arquivo permite que você personalize rapidamente o visual e algumas funcionalidades do site sem precisar modificar diretamente o código-fonte JavaScript.
 
 ---
 
@@ -204,21 +236,35 @@ Aqui está um exemplo de como o JSON pode ser configurado com valores personaliz
 
 ```json
 {
-    "siteName": "Loja de Tecnologia",
-    "logo": "./assets/img/logo/tecnologia_logo.png",
-    "currency": "USD",
-    "font": "Roboto",
-    "theme": {
-        "backgroundColor": "#fafafa",
-        "nameSiteColor": "#000000",
-        "iconsColor": "#0055ff",
-        "secondaryColor": "#ffcc00"
-    },
-    "whatsappNumber": "5511987654321"
+{
+  "siteName": "Minha Loja Personalizada",
+  "logo": "customLogo.png",
+  "currency": "USD",
+  "font": "Montserrat",
+  "theme": {
+    "backgroundColor": "#E0E0E0",
+    "nameSiteColor": "#333333",
+    "txtSiteColor": "#111111",
+    "buttonColor": "#FF5733",
+    "buttonColorTxt": "#FFFFFF"
+  },
+  "displayColors": true,
+  "displaySizes": false,
+  "banner": {
+    "bannerImg": "newPromoBanner.png",
+    "bannerTxt": "Mega Promoção de Fim de Ano!",
+    "bannerTxt2": "Descontos de até 50%!",
+    "bannerTxtColor": "#FF0000",
+    "bannerStyle": "center"
+  },
+  "whatsapp": {
+    "number": "5511987654321",
+    "message": "Confira os produtos adicionados ao carrinho:\n\n"
+  }
+}
+
 }
 ```
-
-Nesse exemplo, o nome do site foi alterado para "Loja de Tecnologia", o logotipo foi modificado, a moeda é definida como Dólar Americano e as cores e fontes foram ajustadas para refletir um novo estilo.
 
 ---
 
