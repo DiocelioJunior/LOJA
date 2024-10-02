@@ -108,10 +108,20 @@ Este projeto foi construído utilizando as seguintes tecnologias:
 
 ## Como Personalizar o Site
 
+### Como Editar o Arquivo
+
+- **Abra o arquivo de configuração:** Utilize um editor de texto ou uma IDE de sua escolha.
+
+- **Localize a propriedade que deseja editar:** Navegue pelas propriedades conforme descrito acima.
+
+- **Edite a propriedade:** Altere o valor da propriedade conforme necessário, garantindo que a estrutura JSON permaneça válida (preste atenção nas vírgulas e aspas).
+
+- **Salve o arquivo:** Após realizar as alterações, salve o arquivo.
+
 ### Nome do Site (`siteName`)
 
-- **Descrição**: O nome do site que será exibido no cabeçalho ou em outras áreas do site.
-- **Valor Padrão**: `"MInha Loja"`
+- **Descrição**: Nome que será exibido na parte superior do site. Esse nome é a identidade do seu negócio e aparecerá em diversas seções do site, incluindo o cabeçalho e o título da página..
+- **Valor Padrão**: `"Lujinha"`
 - **Exemplo de Uso**: Para alterar o nome do site para "Meu Novo Site", edite o valor:
   ```json
   "siteName": "Meu Novo Site"
