@@ -1,10 +1,11 @@
+
 document.addEventListener('DOMContentLoaded', () => {
     fetch('data/settings.json')
         .then(response => response.json())  // Converte a resposta para JSON
         .then(settings => {
             const logo = document.getElementById("logo");
             const categoryTxt = document.getElementById("category-txt");
-            const productTxt = document.getElementById("products-txt");
+            const productsTxt = document.getElementById("products-txt");
             const name = document.getElementById("name");
             const container = document.getElementById("container");
             const containerProducts = document.getElementById("container-products");
@@ -17,25 +18,26 @@ document.addEventListener('DOMContentLoaded', () => {
             const sizeDisplay = document.getElementById("sizes");
             const bannerTxtContainer = document.getElementById("txtBanner");
 
+
             const font = settings.font;
             const displayColors = settings.displayColors;
             const displaySizes = settings.displaySizes;
             const bannerStyle = settings.banner.bannerStyle;
 
             // Configura o logo
-            if (logo) logo.src = settings.logo;
+            if (logo) logo.src = `./assets/img/logo/${settings.logo}`;;
 
             // Configura o banner
-            if (banner) banner.style.backgroundImage = `url('${settings.banner.bannerImg}')`;
+            if (banner) banner.style.backgroundImage = `url('./assets/img/banner/${settings.banner.bannerImg}')`;
 
             // Configura o texto do banner
             if (bannerTxt) {
-                bannerTxt.style.color = settings.theme.bannerTxtColor;
+                bannerTxt.style.color = settings.banner.bannerTxtColor;
                 bannerTxt.innerText = settings.banner.bannerTxt;
             }
 
             if (bannerTxt2) {
-                bannerTxt2.style.color = settings.theme.bannerTxtColor;
+                bannerTxt2.style.color = settings.banner.bannerTxtColor;
                 bannerTxt2.innerText = settings.banner.bannerTxt2;
             }
 
@@ -57,8 +59,8 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             // Configura o texto das categorias e produtos
-            if (categoryTxt) categoryTxt.style.color = settings.theme.nameSiteColor;
-            if (productTxt) productTxt.style.color = settings.theme.nameSiteColor;
+            if (categoryTxt) categoryTxt.style.color = settings.theme.txtSiteColor;
+            if (productsTxt) productsTxt.style.color = settings.theme.txtSiteColor;
 
             // Configura o background dos containers
             if (container) container.style.backgroundColor = settings.theme.backgroundColor;
@@ -91,6 +93,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
             if (container) container.style.fontFamily = fontMapping[font] || "sans-serif";
             if (containerProducts) containerProducts.style.fontFamily = fontMapping[font] || "sans-serif";
+
+            document.body.style.backgroundColor = settings.theme.backgroundColor; // 
         })
         .catch(error => {
             console.error('Erro ao carregar o JSON:', error);  // Exibe erros, se houver

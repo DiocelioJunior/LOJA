@@ -17,11 +17,12 @@ body{
     align-items: center;
     justify-content: center;
     background-color: #fff;
+    height: 100%;
     /*overflow-y: hidden;*/
 }
 
 .container{
-    max-width: 500px;
+    max-width: 600px;
     width: 100%;
     height: 100%;
     display: flex;
@@ -48,11 +49,16 @@ body{
     width: 100%;
 }
 
+.name-container img{
+    width: 32px;
+}
+
 /* Banner */
 .banner-container{
     background-color: #ccc;
-    width: 95%;
-    height: 180px;
+    max-width: 550px;
+    width: 90%;
+    height: 200px;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
@@ -90,7 +96,7 @@ body{
 /*Barra de Pesquisa*/
 .search-container {
     width: 100%;
-    height: 50px;
+    height: 60px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -98,8 +104,8 @@ body{
   }
 
 .search-container input {
-    width: 86%;
-    height: 30px;
+    width: 92%;
+    height: 40px;
     font-size: 16px;
     border: none;
     border-radius: 8px;
@@ -114,7 +120,7 @@ body{
 
 /* Barra de Categorias */
 .category-container {
-    width: 90%;
+    width: 92%;
     height: 80px;
     display: flex;
     flex-direction: column;
@@ -170,8 +176,9 @@ body{
 
 /*LIsta de Produtos*/
 .products-txt-container{
-    width: 90%;
-    height: 80px;
+    width: 92%;
+    height: 40px;
+    margin-top: 15px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -187,8 +194,8 @@ body{
     flex-direction: column; 
     align-items: center;
     gap: 20px; 
-    margin-bottom: 100px;
     width: 100%;
+    height: 100%;
 }
 
 .product-row {
@@ -202,7 +209,7 @@ body{
     margin: 0 5px;
     height: 200px;
     width: 120px;
-    background-color: red;
+    background-color: #757575;
     border-radius: 8px;
     background-size: cover;
     display: flex;
@@ -245,6 +252,7 @@ body{
     height: 400px;
     background-size: cover;
     background-position: center;
+    background-color: #757575;
 }
 
 .info-container{
@@ -314,20 +322,26 @@ body{
     margin-top: 15px;
  }
 
- .size-icon{
+ .size-button{
     width: 30px;
     height: 30px;
     border-radius: 8px;
     border: 1px solid #ccc;
+    color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: #757575;
  }
 
  .size-icon p{
     margin-bottom: 50%;
  }
+
+ .size-button.selected {
+    border: 2px solid #ccc; 
+}
 
  .qnt{
     width:100% ;
@@ -371,7 +385,6 @@ body{
 }
 
 .cart-list h1{
-
     text-align: center;
 }
 
@@ -382,7 +395,7 @@ body{
  }
 
  .cart-container h3{
-    width: 900%;
+    width: 90%;
     padding-left: 12px;
     padding-top: 15px;
  }
@@ -419,6 +432,7 @@ body{
     margin-bottom: 15px;
     margin-left: 10px;
     margin-right: 10px;
+    background-color: #757575;
  }
 
  .cart-item {
@@ -433,6 +447,20 @@ body{
 .cart-item p {
     margin: 5px 0;
 }
+
+#cart-items{
+    width: 100%;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#cart-items img{
+    width: 32px;
+}
+
 
 .remove-item {
     background-color: red;
@@ -460,6 +488,22 @@ body{
 
 .total span{
     font-weight: 300;
+}
+
+.btnWhatsapp{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn-enviar-whatsapp{
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
 }
 
 

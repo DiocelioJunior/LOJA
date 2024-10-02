@@ -13,7 +13,7 @@ window.addEventListener("load", () => {
 
             productRow += `
                 <div class="product" style="background-image: url(${product.image}); background-size: cover; background-position: center;" data-id="${product.id}">
-                    <div class="product-txt">
+                    <div class="product-txt" id="product-txt">
                         <p>R$ ${product.price.toFixed(2)}</p>
                         <h3>${product.name}</h3>
                     </div>

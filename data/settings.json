@@ -1,23 +1,27 @@
 {
     "siteName": "Lujinha",
-    "logo":"./assets/img/logo/logo.png",
+    "logo":"logo.png",
     "currency": "BRL",
     "font":"Suse",
     "theme": {
-        "backgroundColor": "#fff",
-        "nameSiteColor": "#fda61a",
-        "bannerTxtColor": "#fff",
-        "iconsColor": "#808080",
-        "buttonColor": "#2ecc71",
+        "backgroundColor": "#F5F5F5",
+        "nameSiteColor": "#757575",
+        "txtSiteColor": "#424242",
+        "buttonColor": "#212121",
         "buttonColorTxt": "#fff"
     },
-    "displayColors": true,
-    "displaySizes": false,
+    "displayColors": true, 
+    "displaySizes": true,
     "banner":{
-        "bannerImg":"./assets/img/banner/banner.jpg",
-        "bannerTxt":"Bem vindo a Lujinha!",
+        "bannerImg":"banner.png",
+        "bannerTxt":"Lorem ipsum dolor amet mustache knausgaard",
         "bannerTxt2":"Lorem ipsun",
-        "bannerStyle":"right"
+        "bannerTxtColor": "#fff",
+        "bannerStyle":"left"
+    },
+    "whatsapp":{
+        "number":"5516988177812",
+        "message":"Produtos no carrinho:\n\n"
     }
   }
   

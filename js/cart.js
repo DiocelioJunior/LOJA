@@ -7,7 +7,8 @@ window.addEventListener("load", () => {
     let total = 0;
 
     if (cart.length === 0) {
-        cartItemsContainer.innerHTML = '<p>Seu carrinho está vazio.</p>';
+        cartItemsContainer.innerHTML = `<p>Seu carrinho está vazio.</p>
+        <img src="./assets/img/sad.svg">`;
     } else {
         cart.forEach(item => {
             // Criar o elemento de item do carrinho
